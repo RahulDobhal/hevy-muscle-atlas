@@ -1,0 +1,282 @@
+{
+  "demo": true,
+  "workouts": [
+    {
+      "id": "demo-workout-1",
+      "start_time": "2026-01-01T12:00:00Z",
+      "end_time": "2026-01-01T13:00:00Z",
+      "exercises": [
+        {
+          "exercise_template_id": "demo-incline",
+          "title": "Incline Chest Press (Machine)",
+          "sets": [
+            {
+              "type": "warmup",
+              "weight_kg": 10,
+              "reps": 12
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "dropset",
+              "weight_kg": 12,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "exercise_template_id": "demo-curl",
+          "title": "Seated Leg Curl (Machine)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-workout-8",
+      "start_time": "2026-01-08T12:00:00Z",
+      "end_time": "2026-01-08T13:00:00Z",
+      "exercises": [
+        {
+          "exercise_template_id": "demo-press",
+          "title": "Iso-Lateral Chest Press (Machine)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exercise_template_id": "demo-fly",
+          "title": "Chest Fly (Machine)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "dropset",
+              "weight_kg": 12,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-workout-15",
+      "start_time": "2026-01-15T12:00:00Z",
+      "end_time": "2026-01-15T13:00:00Z",
+      "exercises": [
+        {
+          "exercise_template_id": "demo-dip",
+          "title": "Chest Dip",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exercise_template_id": "demo-shoulder",
+          "title": "Shoulder Press (Dumbbell)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-workout-28",
+      "start_time": "2026-01-28T12:00:00Z",
+      "end_time": "2026-01-28T13:00:00Z",
+      "exercises": [
+        {
+          "exercise_template_id": "demo-incline",
+          "title": "Incline Chest Press (Machine)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exercise_template_id": "demo-raise",
+          "title": "Lateral Raise (Dumbbell)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "exercise_template_id": "demo-curl",
+          "title": "Seated Leg Curl (Machine)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            },
+            {
+              "type": "normal",
+              "weight_kg": 20,
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "templates": {
+    "demo-incline": {
+      "id": "demo-incline",
+      "title": "Incline Chest Press (Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "triceps",
+        "shoulders"
+      ],
+      "thumbnail_url": null
+    },
+    "demo-press": {
+      "id": "demo-press",
+      "title": "Iso-Lateral Chest Press (Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "triceps",
+        "shoulders"
+      ],
+      "thumbnail_url": null
+    },
+    "demo-fly": {
+      "id": "demo-fly",
+      "title": "Chest Fly (Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [],
+      "thumbnail_url": null
+    },
+    "demo-dip": {
+      "id": "demo-dip",
+      "title": "Chest Dip",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "thumbnail_url": null
+    },
+    "demo-curl": {
+      "id": "demo-curl",
+      "title": "Seated Leg Curl (Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "hamstrings",
+      "secondary_muscle_groups": [
+        "calves"
+      ],
+      "thumbnail_url": null
+    },
+    "demo-shoulder": {
+      "id": "demo-shoulder",
+      "title": "Shoulder Press (Dumbbell)",
+      "type": "weight_reps",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "thumbnail_url": null
+    },
+    "demo-raise": {
+      "id": "demo-raise",
+      "title": "Lateral Raise (Dumbbell)",
+      "type": "weight_reps",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [],
+      "thumbnail_url": null
+    }
+  }
+}

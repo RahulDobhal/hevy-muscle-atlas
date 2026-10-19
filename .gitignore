@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+work/
+dist/data.json
+dist/qa-*
+dist/assets/exercises/
+coverage/

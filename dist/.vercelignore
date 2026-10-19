@@ -1,0 +1,5 @@
+data.json
+qa-*
+assets/exercises/
+*.map
+.DS_Store
